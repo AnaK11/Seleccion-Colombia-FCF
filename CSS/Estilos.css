@@ -1,0 +1,74 @@
+body{
+  background-image: linear-gradient(rgb(15, 15, 15), rgb(68, 67, 67), rgb(77, 76, 76));
+}
+
+h1, p{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+}
+
+p{
+  font-size: 25px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+}
+
+
+hr{
+  color: rgb(255, 255, 255);
+}
+
+
+.space{
+  margin: 10px;
+}
+
+.logo{
+  margin-right: 650px;
+  color: red;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Unna', serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 70px;
+}
+
+.navbar{
+  height: 39px;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 40px;
+}
+
+.espacio{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+
+.card{
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  justify-content: space-between;
+}
+
+.parrafos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+}
+
+

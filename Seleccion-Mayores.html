@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Unna:ital,wght@1,700&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2? family = Yanone + Kaffeesatz: wght @ 300 & display = swap "
+    rel=" stylesheet ">
+  <link rel="stylesheet" href="CSS/Estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selección Juvenil FC</title>
+</head>
+
+<body>
+  <nav>
+    <h1>Selección Femenina de Fútbol Colombiana</h1>
+  </nav>
+<div class="menu">
+  <div class="logo">
+    <img src="IMG/FCF.svg" width="80px" alt="FCF"> FCF
+  </div>
+  <div class="btn-group navbar">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+      aria-expanded="false">Inicio</button>
+    <ul class="dropdown-menu">
+      <a class="dropdown-item" href="index.html">Inicio</a>
+        <hr class="dropdown-divider">
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="btn-group space navbar">
+    <button type="button" class="btn btn-danger">Selecciones</button>
+    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="Seleccion-Mayores.html">Selección Mayores</a></li>
+      <li><a class="dropdown-item" href="Seleccion-Juvenil.html">Selección Juvenil</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+    </ul>
+  </div>
+
+</div>
+  <hr>
+
+  <div class="container row espacio">
+
+    <div class="card col-6 " style="width: 18rem;">
+      <img src="IMG/Mayores/Angie Castañeda.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Angie Castañeda</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionAngie' class=" form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionAngie()" class=" form-control btn-outline-warning">
+        </div>
+        <div id='equipoAngie' class=" form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoAngie()" class=" form-control btn-outline-info my-2">
+        </div>
+        <div id='edadAngie' class=" form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadAngie()" class=" form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-6 " style="width: 18rem;">
+      <img src="IMG/Mayores/Carolina Arias.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Carolina Arias</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionCarolina' class=" form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionCarolina()" class=" form-control btn-outline-warning">
+        </div>
+        <div id='equipoCarolina' class=" form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoCarolina()" class=" form-control btn-outline-info my-2">
+        </div>
+        <div id='edadCarolina' class=" form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadCarolina()" class=" form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-6" style="width: 18rem;">
+      <img src="IMG/Mayores/Catalina Perez.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Catalina Perez</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionCatalina' class=" form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionCatalina()" class=" form-control btn-outline-warning">
+        </div>
+        <div id='equipoCatalina' class=" form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoCatalina()" class=" form-control btn-outline-info my-2">
+        </div>
+        <div id='edadCatalina' class=" form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadCatalina()" class=" form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container row espacio">
+
+    <div class="card col-6" style="width: 18rem;">
+      <img src="IMG/Mayores/Daniela Arias.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Daniela Arias</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionDaniela' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionDaniela()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoDaniela' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoDaniela()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadDaniela' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadDaniela()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card col-6" style="width: 18rem;">
+      <img src="IMG/Mayores/Daniela Montoya.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Daniela Montoya</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionDanielaM' class=" form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionDanielaM()" class=" form-control btn-outline-warning">
+        </div>
+        <div id='equipoDanielaM' class=" form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoDanielaM()" class=" form-control btn-outline-info my-2">
+        </div>
+        <div id='edadDanielaM' class=" form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadDanielaM()" class=" form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Jorelyn Carabali.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Jorelyn Carabali</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionJorelyn' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionJorelyn()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoJorelyn' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoJorelyn()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadJorelyn' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadJorelyn()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container row espacio">
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Leicy Santos.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Leicy Montoya</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionLeicy' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionLeicy()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoLeicy' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoLeicy()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadLeicy' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadLeicy()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Liana Salazar.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Liana Salazar</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionLiana' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionLiana()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoLiana' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoLiana()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadLiana' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadLiana()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Linda Caicedo.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Linda Caicedo</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionLinda' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionLinda()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoLinda' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoLinda()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadLinda' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadLinda()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container row espacio">
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Lorena Bedoya.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Lorena Bedoya</h5>
+      </div>
+      <div class="card-body">
+        <div  id='posicionLorena' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionLorena()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoLorena' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoLorena()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadLorena' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadLorena()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Manuela Pavi.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Manuela Pavi</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionManuela' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionManuela()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoManuela' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoManuela()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadManuela' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadManuela()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Manuela Vanegas.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Manuela Vanegas</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionManuelaV' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionManuelaV()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoManuelaV' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoManuelaV()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadManuelaV' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadManuelaV()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container row espacio">
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Maria Morales.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Maria Morales</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionMaria' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionMaria()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoMaria' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoMaria()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadMaria' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadMaria()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Mayra Ramirez.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Mayra Ramirez</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionMayra' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionMayra()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoMayra'  class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoMayra()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadMayra' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadMayra()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Stefany Castaño.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Stefany Castaño</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionStefany' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionStefany()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoStefany'class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoStefany()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadStefany'class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadStefany()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container row espacio">
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Tatiana Ariza.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Tatiana Ariza</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionTatiana' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionTatiana()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoTatiana' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoTatiana()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadTatiana' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadTatiana()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="IMG/Mayores/Viviana Acosta.png" class="card-img-top" alt="Imagen Jugadora de la Selección Colombia">
+      <div class="card-body">
+        <h5 class="card-title">Viviana Acosta</h5>
+      </div>
+      <div class="card-body">
+        <div id='posicionViviana' class="form-control btn-outline-warning">
+          <input type="button" value="Posición" onclick="CambiarPosicionViviana()" class="form-control btn-outline-warning">
+        </div>
+        <div id='equipoViviana' class="form-control btn-outline-info my-2">
+          <input type="button" value="Equipo" onclick="CambiarEquipoViviana()" class="form-control btn-outline-info my-2">
+        </div>
+        <div id='edadViviana' class="form-control btn-outline-danger">
+          <input type="button" value="Edad" onclick="CambiarEdadViviana()" class="form-control btn-outline-danger">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <hr style="color: white;">
+  <footer style="background-color: rgb(151, 207, 241);">
+    <div class="footer">
+
+      <div class="container ">
+        <img src="https://img.icons8.com/office/16/000000/person-female.png" width="30px" />Ana Karina Arboleda Arboleda
+        <br>
+        <img src="https://img.icons8.com/bubbles/50/000000/gmail.png" />anakarinarboleda2003@gmail.com <br>
+        <img src="https://img.icons8.com/bubbles/50/000000/cell-phone.png" />3137407189 <br>
+      </div>
+
+      <div class="container ">
+        <img src="https://img.icons8.com/bubbles/50/000000/instagram-new--v2.png" />@ana_karina.02 <br>
+        <img src="https://img.icons8.com/bubbles/50/000000/facebook.png" />Ana Karina Arboleda <br>
+        <img src="https://img.icons8.com/bubbles/50/000000/twitter.png" />@AnaKarinaArbol11
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="JS/Js.js"></script>
+</body>
+
+</html>
